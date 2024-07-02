@@ -6,27 +6,20 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-column">
-        <h4>Columna 1</h4>
         <ul>
-          <li><a href="#!">Enlace 1</a></li>
-          <li><a href="#!">Enlace 2</a></li>
-          <li><a href="#!">Enlace 3</a></li>
+          <li><a href="#!">Instagram</a></li>
+          <li><a href="#!">Facebook</a></li>
+          <li><a href="#!">Twitter</a></li>
         </ul>
       </div>
       <div className="footer-column">
-        <h4>Columna 2</h4>
         <ul>
-          <li><a href="#">Enlace 1</a></li>
-          <li><a href="#">Enlace 2</a></li>
-          <li><a href="#">Enlace 3</a></li>
+          <li>Copyrigth</li>
         </ul>
       </div>
       <div className="footer-column">
-        <h4>Columna 3</h4>
         <ul>
-          <li><a href="#">Enlace 1</a></li>
-          <li><a href="#">Enlace 2</a></li>
-          <li><a href="#">Enlace 3</a></li>
+          <li>Informacion</li>
         </ul>
       </div>
     </footer>
