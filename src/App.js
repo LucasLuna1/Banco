@@ -1,14 +1,14 @@
-// App.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import FormularioCuenta from './componentes/FormularioCuenta';
-import reportWebVitals from '../src/reportWebVitals';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormularioCuenta />
+    <App />
   </React.StrictMode>
 );
+
 reportWebVitals();

@@ -1,7 +1,7 @@
 // FormularioCuenta.jsx
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Estilos/Formulario.css';
+import './style/Formulario.css'
 import TablaDatos from './TablaDatos';
 import Agregar from './Agregar';
 

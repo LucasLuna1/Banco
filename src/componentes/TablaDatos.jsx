@@ -1,6 +1,6 @@
 // TablaDatos.jsx
 import React from 'react';
-import './Estilos/Tabla.css';
+import './style/Tabla.css';
 import Botones from './Botones';
 
 const TablaDatos = ({ clientes, handleEdit, handleDelete }) => {
