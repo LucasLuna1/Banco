@@ -1,0 +1,51 @@
+/*Navbar*/
+.navbar{
+    background-color: #6a0dad;
+    animation: morado 7.5s infinite alternate;
+    padding: 25px;
+    font-size: 22.5px;
+}
+/* Paleta de colores navbar */
+@keyframes morado {
+    0% {
+        background-color: #771eca;
+    }
+    50% {
+        background-color: #480d91;
+    }
+    100% {
+        background-color: #25043d;
+    }
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  /* Links del navbar */
+.nav-link {
+    color: #ffffff !important;
+    margin-left: 15px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+  
+.nav-link:hover {
+    color: rgb(113, 25, 255) ;
+    opacity: 0.25;
+    transition: 0.24s ;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  /*Logo*/
+.logo {  
+    height: 100px; 
+    padding: 0 60px 0 60px;
+}
