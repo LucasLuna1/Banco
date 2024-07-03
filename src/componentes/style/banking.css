@@ -1,0 +1,43 @@
+@keyframes azul {
+    0% {
+        background-color: #0099ff;
+    }
+    50% {
+        background-color: #21a1d3e8;
+    }
+    100% {
+        background-color: #1562b9;
+    }
+}
+
+.banking-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px; 
+}
+
+.banking-section {
+    animation: azul 7.5s infinite alternate;
+    width: 80%;
+    max-width: 325px;
+    height: 35vh;
+    padding: 20px; 
+    text-align: left;
+    line-height: 2;
+    border-radius: 40px;
+    margin: 40px 50px 0 50px;
+  }
+  
+.section-title {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banking-section ul li{
+    font-size: 1.25em;
+}

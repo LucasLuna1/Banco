@@ -1,0 +1,80 @@
+.footer {
+  background-color: #6a0dad;
+  animation: morado 7.5s infinite alternate;
+  color: white;
+  padding: 10px 0 0 10px;
+  display: flex;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+} 
+
+@keyframes morado {
+  0% {
+    background-color: #771eca;
+  }
+  50% {
+    background-color: #480d91;
+  }
+  100% {
+    background-color: #25043d;
+  }
+}
+
+.footer-column {
+  color: white;
+  padding: 10px;
+  flex: 1;
+  margin: 0 50px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-column li img {
+  margin-right: 20px;
+  width: 22px;
+}
+
+
+.footer-column a {
+  text-decoration: none;
+  color: white;
+}
+
+.x:hover{
+  color: white;
+  opacity: 0.25;
+  transition: .5s;
+}
+.fb:hover{
+  color: aqua;
+  opacity: 0.25;
+  transition: .5s;
+}
+.ig:hover{
+  color: mediumvioletred;
+  opacity: 0.55;
+  transition: .5s;
+}
+.logox{
+  height: 15px;
+  border-radius: 50px;
+  background-color: antiquewhite;
+}
+
+.direccion{
+  margin-left: 175px;
+}

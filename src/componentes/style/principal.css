@@ -1,0 +1,13 @@
+.section {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+  
+
+.carousel {
+    background-image: url(/src/componentes/foto/messi.jpg);
+    height: 400px;
+    margin: 15px 30px 10px 30px;
+    border-radius: 10px;
+}
