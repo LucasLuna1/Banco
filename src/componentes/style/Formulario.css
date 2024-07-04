@@ -5,13 +5,24 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(14, 1, 29);
+    background-color: #11011d;
+    animation: morado 7.5s infinite alternate;
     color: rgb(255, 255, 255);
     width: 45%;
-
+ }
+    @keyframes morado {
+      0% {
+        background-color: #11031f;
+      }
+      50% {
+        background-color: #4b1f81;
+      }
+      100% {
+        background-color: #47026e;
+      }
 
   }
-  
+
   .form-group {
     display: flex;
     align-items: center;
@@ -35,8 +46,7 @@ font-size: 15px;
   }
 
   
-  .form-control
-   {
+  .form-control{
     flex: 2;
   }
   .btn-container {
@@ -47,7 +57,7 @@ font-size: 15px;
   .btn-custom {
     background-color: #12A08B;
     border-color: #12A08B;
-    color: #ffffff; /* Color del texto */
+    color: #ffffff;
   }
   
   .btn-custom:hover {

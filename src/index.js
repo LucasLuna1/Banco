@@ -13,10 +13,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <div className="App">
+      <div>
         <ElNavbar />
         <Routes>
-          <Route path="inicio" element={
+          <Route path="/" element={
+            <>
+              <Principal />
+              <Banking />
+              <Footer />
+            </>
+          } />
+          <Route path="/inicio" element={
             <>
               <Principal />
               <Banking />
@@ -31,3 +38,4 @@ root.render(
 );
 
 reportWebVitals();
+

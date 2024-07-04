@@ -8,7 +8,7 @@ const ElNavbar = () => {
   return (
      <Navbar className="navbar">
       <Container className="navbar-container">
-        <Navbar.Brand href="#" className="navbar-brand">
+        <Navbar.Brand className="navbar-brand">
           <img
             src={logo}
             className="logo"
