@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './style/navbar.css';
 import logo from './logo/logo.png';
+import { Link } from 'react-router-dom';
 
 const ElNavbar = () => {
   return (
@@ -13,13 +14,14 @@ const ElNavbar = () => {
             className="logo"
           />
         <Nav className="nav-izq">
+          <Link to="/inicio" className="nav-link">Inicio</Link>
           <Nav.Link href="#" className="nav-link">Atención al Cliente</Nav.Link>
           <Nav.Link href="#" className="nav-link">Servicios</Nav.Link>
         </Nav>
         </Navbar.Brand>
         <Nav>
           <Nav.Link href="#" className="nav-link">Iniciar Sesión</Nav.Link>
-          <Nav.Link href="#crear-cuenta" className="nav-link">Crear Cuenta</Nav.Link>
+          <Link to="/crear-cuenta" className="nav-link">Crear Cuenta</Link>
         </Nav>
       </Container>
     </Navbar>
