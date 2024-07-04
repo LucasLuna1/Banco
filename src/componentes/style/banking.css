@@ -27,6 +27,6 @@
   
   .banking-section:hover {
     transform: translateY(-10px);
-    background-color: black;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
   }
   
