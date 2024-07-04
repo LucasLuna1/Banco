@@ -1,0 +1,32 @@
+.banking-container {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20vh
+  }
+  
+  .banking-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .banking-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 1px;
+  }
+  
+  .banking-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+  }
+  

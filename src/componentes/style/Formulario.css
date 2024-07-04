@@ -1,0 +1,67 @@
+/*Formulario.css*/ 
+.form-container {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #11011d;
+    animation: morado 7.5s infinite alternate;
+    color: rgb(255, 255, 255);
+    width: 45%;
+ }
+    @keyframes morado {
+      0% {
+        background-color: #11031f;
+      }
+      50% {
+        background-color: #4b1f81;
+      }
+      100% {
+        background-color: #47026e;
+      }
+
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .form-label {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 1em;
+
+  }
+  #text{
+font-size: 15px;
+  }
+  .form-select{
+    flex: 2;
+    margin-left: 13px;
+    margin-bottom: 8px;
+  }
+
+  
+  .form-control{
+    flex: 2;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+ 
+  }
+  .btn-custom {
+    background-color: #12A08B;
+    border-color: #12A08B;
+    color: #ffffff;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0F7A68; 
+    border-color: #0F7A68; 
+    color: #ffffff; 
+  }
