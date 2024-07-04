@@ -20,11 +20,11 @@ root.render(
             <>
               <Principal />
               <Banking />
+              <Footer />
             </>
           } />
           <Route path="/crear-cuenta" element={<FormularioCuenta />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   </React.StrictMode>

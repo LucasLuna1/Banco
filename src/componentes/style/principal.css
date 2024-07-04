@@ -9,5 +9,6 @@
     background-image: url(/src/componentes/foto/messi.jpg);
     height: 400px;
     margin: 15px 30px 10px 30px;
+    background-size: cover;
     border-radius: 10px;
 }

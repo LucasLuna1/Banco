@@ -15,12 +15,9 @@ const ElNavbar = () => {
           />
         <Nav className="nav-izq">
           <Link to="/inicio" className="nav-link">Inicio</Link>
-          <Nav.Link href="#" className="nav-link">Atención al Cliente</Nav.Link>
-          <Nav.Link href="#" className="nav-link">Servicios</Nav.Link>
         </Nav>
         </Navbar.Brand>
         <Nav>
-          <Nav.Link href="#" className="nav-link">Iniciar Sesión</Nav.Link>
           <Link to="/crear-cuenta" className="nav-link">Crear Cuenta</Link>
         </Nav>
       </Container>
